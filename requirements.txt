@@ -1,0 +1,7 @@
+Django==5.0.3
+django-silk==5.1.0
+djangorestframework==3.15.1
+PyYAML==6.0.1
+requests==2.31.0
+ujson==5.9.0
+urllib3==2.2.1
