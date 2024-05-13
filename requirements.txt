@@ -5,3 +5,4 @@ PyYAML==6.0.1
 requests==2.31.0
 ujson==5.9.0
 urllib3==2.2.1
+drf-yasg==1.21.7

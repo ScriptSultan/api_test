@@ -1,7 +1,5 @@
 from django.contrib import admin
 
-from django.contrib import admin
-
 from api.models import User, Shop, Product, Category, Order, OrderItem, ProductInfo
 
 @admin.register(User)

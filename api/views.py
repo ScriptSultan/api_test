@@ -109,14 +109,14 @@ class LoginAccountView(APIView):
     # Авторизация методом POST
     def post(self, request, *args, **kwargs):
         """
-                Authenticate a user.
+        Authenticate a user.
 
-                Args:
-                    request (Request): The Django request object.
+        Args:
+            request (Request): The Django request object.
 
-                Returns:
-                    JsonResponse: The response indicating the status of the operation and any errors.
-                """
+        Returns:
+            JsonResponse: The response indicating the status of the operation and any errors.
+        """
         if {'email', 'password'}.issubset(request.data):
 
             user = authenticate(request, username=request.data['email'], password=request.data['password'])
